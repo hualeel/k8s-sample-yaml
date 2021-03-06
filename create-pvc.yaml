@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
-metadata: habordatabase   
-  name: claim
+metadata:    
+  name: habordatabase   
   namespace: harbor
 spec:
   accessModes: - ReadWriteOnce
